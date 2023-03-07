@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid white;
+  background-color: red;
+
+  width: 98vw;
+}
+
+.TopHeaderIcon {
+  padding: 3px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px 1px rgba(128, 134, 138, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: transparent;
+}
+
+.topsheet {
+  height: 100%;
+  background-color: aqua;
+}
+.sheet {
+  text-align: left;
+  border: 5px solid white;
+  height: 1001px;
+  width: 700px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px 1px rgba(18, 127, 211, 0.15);
+}
+
+.sheet:focus {
+  outline: none;
+}
+
+.allIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  height: 100%;
+}
+
+.mapIcon {
+  display: flex;
+}
+
+.zoom {
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent !important;
+}
+
+.zoom:focus {
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.zoom:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fontSizeInput {
+  width: 30px;
+  height: 15px;
+}
+
+.minusBtn {
+  height: 22px;
+  width: 22px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+.minusBtn:hover {
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+.plusBtn {
+  height: 22px;
+  width: 22px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+.plusBtn:hover {
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+.font-size-btn:focus {
+  outline: none;
+}
+
+.downloadIcon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transform: scale(1.5);
+}
+
+.documentImg {
+  display: flex;
+  margin: 0;
+  justify-content: left;
+  box-shadow: 0 1px 3px 1px rgb(255, 254, 254);
+  width: 100%;
+  padding: 5px;
+  /* background-color: white; */
+  background-color: blue;
+}
+
+.colorInput2{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 20px;
+  width: 30px;
+ 
+}
+
+.colorInput1{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 20px;
+  width: 30px;
+
+}
+
+.ImageContainer{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+
+}
